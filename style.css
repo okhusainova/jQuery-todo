@@ -1,0 +1,76 @@
+body {
+	font-family: Arial;
+}
+
+.todo-header {
+	  font-size: 24px;
+    text-transform: uppercase;
+   color: gray;
+}
+.add-btn {
+	width: 	160px;
+	height: 50px;	
+	background-color: #41f492;
+	text-transform: uppercase;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+.text-area {
+		height: 31px;
+    width: 370px;
+    font-size: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid #41f492;
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto 1rem;
+}
+.form-box {
+	width: 80%;
+	margin: 0 auto;
+	    text-align: center;
+}
+
+.save-plans {
+	margin: 0 auto;
+	width: 100%;
+  text-align: center;
+  font-size: 19px;
+  letter-spacing: 3px;
+  margin-top: 2rem;
+  list-style: none;
+}
+
+.save-plans__item {
+	border-bottom: 1px solid gainsboro;
+	margin-bottom: 12px;
+}
+
+.todo-check {
+	    float: right;
+}
+
+.todo-label {
+	    display: inline-block;
+    width: 30px;
+    height: 30px;
+        border: 1px solid rgb(187, 125, 255);
+	}
+
+	.todo-check:checked + .todo-label {
+    border: 1px solid red;
+}
+
+.new-item {
+	display: inline-block;
+	width: 440px;
+	padding-right: 2rem;
+}
+
+.task-done {
+	text-decoration: line-through;
+}
